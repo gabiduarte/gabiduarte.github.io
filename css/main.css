@@ -1,58 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
 body {
-	background-image: url('../nami.png');
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
+	background-color: #4C9BD8;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	color: #fff;
-}
-.container {
-	width: 650px;
-	height: 400px;
-	margin: auto;
-	padding: 20px;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
-	background-color: #111111;
-	box-shadow: 2px 2px 1px #000;
-	border-radius: 6px;
 	text-align: center;
 }
-.title {
-	font-size: 20px;
+
+a {color: #FFF; text-decoration: underline;}
+
+h1 {font-size: 4em;}
+
+.social-group {font-size: 1.5em;}
+
+@media (max-width: 530px) {
+	h1 { font-size: 2.75em;}
 }
-.icons {
-	font-size: 24px;
-}
-a:link, a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-.cards {
-	width: 50%;
-	display: inline-block;
-}
-.working-with {
-	float: left;
-}
-.hide {
-	opacity: 0;
-	transition: opacity 0.5s linear;
-}
-.hide:hover {
-	opacity: 1;
-	transition-delay: 0s;
-}
-#me {
-	position: relative;
-	height: 150px;
-	width: 150px;
-	margin:0 auto;
-}
-#me img {
-	position: absolute;
-	left: 0;
-	transition: opacity 0.5s ease-in-out;
-}
-#me img.top:hover {
-	opacity:0;
-}
-/* Background pattern from subtlepatterns.com */
